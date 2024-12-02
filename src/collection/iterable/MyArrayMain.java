@@ -11,5 +11,10 @@ public class MyArrayMain {
         while (iterator.hasNext()) {
             System.out.println(iterator.next());
         }
+
+        System.out.println("for-each 사용");
+        for (Integer value : myArray) {
+            System.out.println("value = " + value);
+        }
     }
 }
